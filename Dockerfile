@@ -1,5 +1,7 @@
 FROM jeanblanchard/busybox-java:7
 
+ENV ES_PKG_NAME elasticsearch-2.3.5
+
 # Install ElasticSearch.
 RUN \
   cd / && \
