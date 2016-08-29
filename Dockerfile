@@ -1,6 +1,6 @@
 FROM jeanblanchard/busybox-java:7
 
-ENV ES_VERSION 1.4.4
+ENV ES_VERSION 2.3
 
 # Install ElasticSearch.
 RUN \
