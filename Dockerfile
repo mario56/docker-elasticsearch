@@ -1,11 +1,9 @@
 FROM jeanblanchard/busybox-java:7
 
-ENV ES_VERSION 2.3
-
 # Install ElasticSearch.
 RUN \
   cd / && \
-  wget http://download.elasticsearch.org/elasticsearch/elasticsearch/elasticsearch-$ES_VERSION.tar.gz && \
+  wget https://download.elastic.co/elasticsearch/release/org/elasticsearch/distribution/tar/elasticsearch/2.3.5/elasticsearch-2.3.5.tar.gz && \
   gzip -d $ES_PKG_NAME.tar.gz && \
   tar xvf $ES_PKG_NAME.tar && \
   rm -f $ES_PKG_NAME.tar && \
