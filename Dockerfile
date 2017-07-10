@@ -1,6 +1,6 @@
 FROM jeanblanchard/busybox-java:7
 
-ENV ES_PKG_NAME elasticsearch-2.3.5
+ENV ES_PKG_NAME elasticsearch-1.7.6
 
 # Install ElasticSearch.
 RUN \
