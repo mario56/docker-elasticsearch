@@ -1,4 +1,4 @@
-FROM jeanblanchard/busybox-java:7
+FROM jeanblanchard/busybox-java:8
 
 ENV ES_PKG_NAME elasticsearch-1.7.6
 
